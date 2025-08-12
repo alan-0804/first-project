@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+   <html>
+        <head>
+            <title>youtube clone</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <style>
+                p{
+                    font-family:Roboto,Arial;
+                }
+                .thumbnail{
+                    width:100%;
+                    display:inline-block ;
+                
+                }
+                .searchbar{
+                    font-size: 20px;
+                    margin-left: 20px;
+                    border-radius: 12px;
+                    display: block;
+                }
+                .video-grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    height: 200px;
+                    column-gap: 16px;
+                    row-gap: 12px;
+
+                }
+                .video-details-grid{
+                    display: grid;
+                    grid-template-columns: 50px 1fr;
+                }
+                .profile-pic{
+                    width: 100%;
+                    border-radius: 50px;
+                }
+                .video-title{
+                    margin-top: 0px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    margin-bottom: 12px;
+                }
+                .thumbnail-row{
+                    margin-bottom: 12px;
+                }
+                .author,.video-status{
+                    font-size: 14px;
+                    color: grey;
+                }
+                
+                .author{
+                    margin-bottom: 8px;
+                }
+
+            </style>
+        </head>
+        <body>
+            <input type="text" class="searchbar" placeholder="search">
+            <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thamnail-1.webp">
+                </div>
+                <div class="video-details-grid">
+                    <div class="channel-pic">
+                    <img  class="profile-pic" src="channel-1.jpeg">
+                    </div>
+                    <div class="video-details">      
+            <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+            <p class="author">MrBeast</p>
+            <p class="video-status">141M views · 1 year ago</p>
+            </div>
+            </div>
+            </div>
+
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail-2.webp">
+                </div>
+                <div class="video-details-grid">
+                    <div class="channel-pic">
+                    <img  class="profile-pic" src="channel-2.jpeg">
+                    </div>
+                    <div class="video-details">      
+            <p class="video-title">
+    The Simplest Math Problem No One Can Solve - Collatz</p>
+            <p class="author">Veritasium</p>
+            <p class="video-status">18M views · 4 months ago</p>
+            </div>
+            </div>
+            </div>
+            
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail-3.webp">
+                </div>
+                <div class="video-details-grid">
+                    <div class="channel-pic">
+                    <img  class="profile-pic" src="channel-3.jpeg">
+                    </div>
+                    <div class="video-details">      
+            <p class="video-title">
+    What would happen if you didn’t drink water? - Mia Nacamulli</p>
+            <p class="author">TED-Ed</p>
+            <p class="video-status">12M views · 5 years ago</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
