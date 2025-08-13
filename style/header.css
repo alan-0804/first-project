@@ -5,17 +5,90 @@
     justify-content: space-between;
 }
 .left-section{
- background-color: aquamarine;
- width: 150px;
+
+ display: flex;
+ align-items: center;
+}
+.hamburger-menu{
+    height: 30px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.logo{
+    height: 20px;
 }
 .middle-section{
- background-color: aqua;
+
  flex: 1;
- margin-left: 15px;
- margin-right: 20px;
- max-width: 400px;
+ margin-left: 70px;
+ margin-right: 35px;
+ max-width: 500px;
+ display: flex;
+ align-items: center;
+}
+.searchbar{
+    height: 36px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(130, 130, 130) ;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.05);
+    width: 0;
+}
+.searchbar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+   
+}
+.search-button{
+    height:40px;
+    width: 60px;
+    background-color:rgb(240,240,240) ;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(130, 130, 130) ;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(216, 215, 215);
+}
+.search-logo{
+    height:25px;
+    margin-top: 4px;
+    
+}
+.voice-logo{
+    height:30px;
+    margin-top: 3px;
+
 }
 .right-section{
-    background-color: aliceblue;
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.upload-logo{
+    height: 30px;
+
+}
+.apps-logo{
+    height: 30px;
+
+}
+.notifications-logo{
+ height: 30px;
+}
+.channel-logo{
+ height:30px;
+ border-radius: 15px;
 }
